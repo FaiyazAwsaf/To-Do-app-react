@@ -1,0 +1,91 @@
+div {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(217, 241, 222);
+  }
+
+h1 {
+    font-size: 3em;
+    color: #333;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+}
+
+select {
+    padding: 5px;
+    background-color: #9e9c9c;
+}
+select:hover {
+    background-color: #dfdddd;
+
+}
+
+option {
+    color: aliceblue;
+}
+
+
+input {
+    padding: 5px;
+    width: 400px;
+}
+
+.add-btn {
+    background-color: rgb(94, 240, 94);
+}
+
+.add-btn:hover {
+    background-color: #a8ffa7;
+  }
+
+.sort-btn {
+    background-color: rgb(135, 135, 239);
+}
+.sort-btn:hover {
+    background-color: rgb(187, 187, 255);
+}
+
+.delete-btn {
+    background-color: rgb(205, 8, 8);
+    float: right;
+}
+
+.delete-btn:hover {
+    background-color: rgb(119, 0, 0);
+}
+
+ul {
+    padding: 0px;
+    list-style-type: none
+}
+
+.taskList {
+    align-items: center;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.priority-high {
+    background-color: rgb(255, 135, 135);
+  }
+  
+  .priority-medium {
+    background-color: rgb(255, 203, 135);
+  }
+  
+  .priority-low {
+    background-color: rgb(135, 255, 245);
+  }
